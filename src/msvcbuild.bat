@@ -29,8 +29,10 @@
 
 %LJCOMPILE% host\minilua.c
 @if errorlevel 1 goto :BAD
+
 %LJLINK% /out:minilua.exe minilua.obj
 @if errorlevel 1 goto :BAD
+
 if exist minilua.exe.manifest^
   %LJMT% -manifest minilua.exe.manifest -outputresource:minilua.exe
 
