@@ -14,3 +14,8 @@ Please point your favorite browser to:
 
  doc/luajit.html
 
+README for Premake
+------------------
+Download the latest from https://github.com/premake/premake-core/releases
+Make the projects with `./premake5.exe vs2019`
+
